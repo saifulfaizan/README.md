@@ -51,11 +51,11 @@
   <a href="https://linkedin.com/in/saifulfaizan"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin"></a>
   <a href="mailto:saifulfaizan@gmail.com"><img src="https://img.shields.io/badge/-Email-informational?style=flat&logo=gmail&logoColor=white"></a>
   <a href="https://t.me/bib0rnn"><img src="https://img.shields.io/badge/-Telegram-blue?style=flat&logo=telegram"></a>
-  <a href="https://yourwebsite.com"><img src="https://img.shields.io/badge/-Website-success?style=flat&logo=google-chrome"></a>
+  <a href="https://saifulfaizan.ml"><img src="https://img.shields.io/badge/-Website-success?style=flat&logo=google-chrome"></a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://github.com/saifulfaizan/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
