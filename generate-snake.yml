@@ -1,0 +1,28 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Setiap hari tengah malam
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: saifulaizan
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push snake.svg to the output branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          branch: output
+          message: "Generate contribution snake"
+          add: "dist/*"
